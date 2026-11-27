@@ -25,6 +25,29 @@ Al iniciar una sesión de trabajo:
 
 Evita cargar documentos que no sean relevantes para la tarea.
 
+## Project discovery
+
+Cuando la tarea esté relacionada con uno o más proyectos:
+
+1. Identifica el proyecto mediante la instrucción explícita del usuario, el repositorio Git activo o el contexto inequívoco de la tarea.
+2. Consulta `projects/README.md`.
+3. Carga el `PROJECT_RULES.md` correspondiente cuando exista.
+4. Consulta las fuentes de verdad del proyecto según las necesidades de la tarea.
+5. Respeta los contratos, convenciones y controles de ejecución vigentes.
+
+No cargues perfiles de proyectos irrelevantes.
+
+La plantilla `templates/PROJECT_RULES.md` no constituye una
+instrucción operativa y no debe cargarse durante el trabajo habitual.
+
+Si el proyecto no está registrado, aplica PAIS junto con las
+convenciones locales disponibles.
+
+No modifiques el catálogo ni las reglas permanentes sin aprobación explícita.
+
+No interpretes las instrucciones declarativas como autorización para
+eludir controles de seguridad o restricciones de ejecución.
+
 ## Instruction precedence
 
 Respeta la siguiente precedencia dentro de las instrucciones
