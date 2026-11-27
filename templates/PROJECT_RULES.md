@@ -1,33 +1,93 @@
 # Project Rules
 
-Project: CodeConductor
+Template version: 0.1.0
 
-## Personal Standard
+## Identity
 
-- CORE: always applicable.
-- WRITING: applicable to communication and documentation.
-- LANGUAGE: applicable to all generated artifacts.
+- Project: [Project name]
+- Repository: [Canonical repository URL]
+- Description: [Project purpose]
+
+## Context
+
+- Problem: [Problem being solved]
+- Audience: [Target users]
+- Objectives: [Expected outcomes]
+- Non-goals: [Explicit exclusions]
 
 ## Language
 
-- Repository documentation: English.
-- Source code: English.
-- Issues and pull requests: English.
-- Commit messages: English.
-- User interaction: Spanish unless explicitly requested otherwise.
+Define only project-specific language conventions.
+
+- User interaction:
+- Source code:
+- Documentation:
+- Commit messages:
+- Issues:
+- Pull requests:
+
+When unspecified, apply LANGUAGE.md and existing repository conventions.
+
+## Sources of truth
+
+Identify the authoritative sources for:
+
+- Architecture.
+- Specifications.
+- Engineering conventions.
+- Product roadmap.
+- Task management.
+- Validation and testing.
+
+Prefer references to existing documents over duplicated content.
 
 ## Engineering
 
-- Preserve approved specifications and contracts.
-- Follow existing architectural conventions.
-- Keep changes within the approved scope.
-- Protect acceptance tests from unauthorized modifications.
-- Prefer deterministic validation over subjective evaluation.
-- Require evidence for completion claims.
+Define project-specific requirements for:
+
+- Technology and architecture.
+- Implementation workflow.
+- Testing and verification.
+- Dependencies.
+- Compatibility.
+- Security.
+- Scope restrictions.
+
+Do not duplicate general engineering principles from CORE.md.
+
+## Workflow
+
+- Discovery:
+- Planning:
+- Implementation:
+- Verification:
+- Delivery:
+
+Use the project's established workflow when available.
+
+## Version control
+
+- Branch conventions:
+- Commit conventions:
+- Pull request requirements:
+- Release strategy:
+
+## Restrictions
+
+Document prohibited operations, protected resources
+and actions requiring explicit approval.
+
+Instructions do not replace enforceable security controls.
+
+## Definition of done
+
+Define the evidence required to consider a task complete.
 
 ## Scope
 
-Project-specific rules complement the Personal AI Standard.
+These rules complement the Personal AI Standard.
 
-Do not duplicate global rules or redefine personal
-preferences without explicit justification.
+Do not redefine permanent personal preferences or introduce
+requirements unsupported by the project.
+
+Omit sections that are not applicable.
