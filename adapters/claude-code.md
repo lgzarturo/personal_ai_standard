@@ -1,12 +1,15 @@
 # Claude Code
 
-Añade la [instrucción local](README.md#instrucción-para-una-copia-local)
-a `~/.claude/CLAUDE.md` para usar PAIS en tus repositorios. Abre una sesión
-nueva y usa `/memory` para comprobar que Claude Code detectó el archivo.
-Mantén las reglas del repositorio en su archivo de instrucciones habitual.
+1. Añade la [instrucción base y la referencia local](README.md#instrucción-para-una-copia-local)
+   a `~/.claude/CLAUDE.md`. Puedes importar `BOOTSTRAP.md`, `CORE.md` y
+   `LANGUAGE.md` mediante `@ruta` para incluir su contenido al iniciar la sesión.
+2. [Exporta la skill](README.md#exportar-e-instalar-la-skill) y descomprime
+   `pais.zip` en `~/.claude/skills/pais/`.
+3. Abre una sesión nueva y usa `/memory` para revisar qué archivos de
+   instrucciones detectó Claude Code. Usa `/pais` para cargar la skill.
 
-En un entorno remoto, indica la ruta de una copia accesible desde ese entorno.
-Si el agente puede consultar la web, también puedes usar la
-[instrucción remota](README.md#instrucción-para-acceso-remoto) al iniciar el chat.
+Para sesiones en la nube, usa una copia accesible desde ese entorno o la
+skill de la cuenta de Claude habilitada para esa sesión.
 
-[Instrucciones y memoria de Claude Code](https://code.claude.com/docs/en/memory)
+[Instrucciones y memoria](https://code.claude.com/docs/en/memory) ·
+[Skills en Claude Code](https://code.claude.com/docs/en/skills)

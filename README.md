@@ -32,37 +32,11 @@ disponibles.
 
 ## Instrucción global portable
 
-Para las herramientas que permiten configurar instrucciones personalizadas
-
-```markdown
-Utiliza Personal AI Standard (PAIS) como marco de referencia
-para todas nuestras interacciones.
-
-Fuente de verdad:
-https://github.com/lgzarturo/personal_ai_standard
-
-Consulta BOOTSTRAP.md para determinar qué documentos aplicar
-según el contexto.
-
-Aplica CORE.md de forma permanente, LANGUAGE.md para determinar
-el idioma y WRITING.md cuando la tarea involucre comunicación
-o generación de texto.
-
-Para tareas de proyecto, usa el catálogo projects/README.md y
-respeta las convenciones del proyecto activo.
-
-Utiliza FEEDBACK.md para proponer mejoras al estándar,
-sin modificar preferencias permanentes sin mi aprobación.
-
-Si no puedes acceder al repositorio, informa de esta limitación
-y utiliza las instrucciones disponibles localmente.
-```
-
-> Hay una limitación importante: proporcionar una URL
-> en las instrucciones globales no garantiza que
-> todos los agentes consulten el repositorio automáticamente.
-> Algunos pueden carecer de acceso a Internet, de herramientas
-> de lectura o de mecanismos de carga dinámica de contexto.
+Añade la [instrucción base permanente](adapters/README.md#instrucción-base-permanente)
+al ajuste de usuario que documenta tu adaptador. Para disponer de los documentos
+detallados en un agente web, instala la skill de PAIS o adjunta las fuentes
+que requiera la tarea. La [referencia remota](adapters/README.md#instrucción-para-acceso-remoto)
+está disponible para sesiones con acceso a GitHub.
 
 ## Integración con agentes locales
 
@@ -73,17 +47,23 @@ y utiliza las instrucciones disponibles localmente.
    git clone https://github.com/lgzarturo/personal_ai_standard.git "$HOME/.pais"
    ```
 
-2. Añade la instrucción global anterior a la configuración del agente y
-   sustituye la URL del repositorio por la ruta absoluta a tu copia local.
-   Indica la ruta al archivo `BOOTSTRAP.md` dentro de esa copia.
+2. Añade la instrucción base y el [bloque de copia local](adapters/README.md#instrucción-para-una-copia-local)
+   donde indique tu adaptador. Usa la ruta absoluta a tu copia de PAIS.
 3. Conserva el catálogo y los perfiles dentro de `projects/` para que el
    agente pueda seguir los enlaces desde el catálogo. Al actualizar la copia,
    usa una misma revisión de Git para todos los documentos.
 
 ## Adaptadores
 
-Consulta la [guía de adaptadores](adapters/README.md) para configurar PAIS
-en tu agente y verificar el acceso desde una copia local o desde GitHub.
+Consulta la [guía de adaptadores](adapters/README.md) para configurar las
+instrucciones globales de tu agente e instalar la skill de PAIS con sus
+referencias locales.
+
+## Calibración
+
+Consulta los [escenarios de calibración](calibration/README.md) para evaluar
+la selección de idioma, el descubrimiento de proyectos, la precedencia de
+instrucciones y el consumo de contexto.
 
 ## Versionado
 
