@@ -2,6 +2,8 @@
 
 ## Sin publicar
 
+## v0.1.0 — 2026-11-26
+
 ### Añadido
 
 - Principios de razonamiento, toma de decisiones y ejecución en `CORE.md`.
@@ -17,6 +19,5 @@
 ### Cambiado
 
 - Adaptadores auditados contra la documentación oficial. Gemini Apps usa Skills y cada plataforma documenta su mecanismo de instrucciones globales.
-
 - La plantilla de reglas de proyecto admite proyectos con distintas convenciones.
 - El README describe la arquitectura y explica cómo usar PAIS con instrucciones globales y una copia local.
