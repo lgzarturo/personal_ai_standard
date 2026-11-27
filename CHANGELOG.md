@@ -10,6 +10,7 @@
 - Punto de entrada `BOOTSTRAP.md` con carga selectiva de contexto y descubrimiento de proyectos.
 - Catálogo de proyectos con perfiles para CodeConductor y MicroSDD.
 - Política de versionado y procedimiento de publicación en el README.
+- Adaptadores para ChatGPT, Claude, Claude Code, Codex, Gemini, Cursor, Muse Code y OpenCode, con verificación de acceso local y remoto.
 
 ### Cambiado
 

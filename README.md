@@ -80,6 +80,11 @@ y utiliza las instrucciones disponibles localmente.
    agente pueda seguir los enlaces desde el catálogo. Al actualizar la copia,
    usa una misma revisión de Git para todos los documentos.
 
+## Adaptadores
+
+Consulta la [guía de adaptadores](adapters/README.md) para configurar PAIS
+en tu agente y verificar el acceso desde una copia local o desde GitHub.
+
 ## Versionado
 
 Las etiquetas de Git con formato `vMAJOR.MINOR.PATCH` identifican las versiones
