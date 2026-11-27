@@ -81,5 +81,4 @@ del conjunto.
 
 Registra los cambios aprobados bajo **Sin publicar**. Al preparar una
 publicación, verifica la revisión de Git, mueve sus entradas a una sección con
-la versión y la fecha, y etiqueta esa revisión. La primera publicación
-prevista es `v0.1.0`, después de completar la calibración del estándar.
+la versión y la fecha, y etiqueta esa revisión.
